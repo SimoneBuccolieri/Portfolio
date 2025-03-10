@@ -1,17 +1,17 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
-import Container from './components/Container.vue'
-import Projects from "@/components/Projects.vue";
-import About from "@/components/About.vue";
-import Footer from "@/components/Footer.vue";
+import Navbar from "@/layouts/Navbar.vue";
+import Header from "@/layouts/Header.vue";
+import About from "@/layouts/About.vue";
+import Projects from "@/layouts/Projects.vue";
+import Footer from "@/layouts/Footer.vue";
 </script>
 
 <template>
-  <div class="box relative min-h-screen flex flex-col text-black">
+  <div class="relative bg-gray-50 min-h-screen flex flex-col text-black">
     <Navbar />
-    <Container />
-    <projects />
-    <about />
+    <Header />
+    <Projects />
+    <About />
     <Footer />
   </div>
 </template>
