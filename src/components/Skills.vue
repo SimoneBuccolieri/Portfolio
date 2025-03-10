@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import Section from "@/components/Section.vue";
 
 const skills = ref([
   { id: 1, name: "HTML", img: "/skills/html.svg" },
@@ -16,10 +17,13 @@ const skills = ref([
 </script>
 
 <template>
-  <div class="grid grid-cols-5 gap-4 p-6">
-    <div v-for="skill in skills" :key="skill.id" class=" flex flex-col items-center p-4 border border-gray-200  rounded-lg shadow hover:shadow-md transition">
-      <img :src="skill.img" :alt="skill.name" class="w-16 aspect-square   object-contain ">
-      <p class="text-xs md:text-lg md:font-semibold text-gray-500 pt-1">{{ skill.name }}</p>
+  <Section class="lg:pt-0!">
+    <h2 class="text-2xl lg:hidden font-bold text-center">Skills</h2>
+    <div class="grid grid-cols-3 lg:grid-cols-5 gap-4 max-w-[60rem] w-full mx-auto mt-4 lg:mt-8">
+      <div v-for="skill in skills" :key="skill.id" class=" flex flex-col items-center px-2 py-4 border border-gray-200 rounded-lg hover:shadow-md transition bg-white">
+        <img :src="skill.img" :alt="skill.name" class="w-12 aspect-square object-contain">
+        <p class="text-xs lg:text-base text-gray-500 mt-2">{{ skill.name }}</p>
+      </div>
     </div>
-  </div>
+  </Section>
 </template>
