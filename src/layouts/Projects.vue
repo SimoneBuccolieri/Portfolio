@@ -73,7 +73,7 @@ const closeProject = () => {
 </script>
 
 <template>
-  <Section>
+  <Section id="projects">
     <h2 class="text-3xl font-bold md:text-4xl text-center">
       Projects
     </h2>

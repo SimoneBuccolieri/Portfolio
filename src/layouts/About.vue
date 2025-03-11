@@ -5,7 +5,7 @@ import Section from "@/components/Section.vue";
 
 <template>
 <Section>
-  <div class="grid gap-10 md:grid-cols-2 items-center">
+  <div id="about" class="grid gap-10 md:grid-cols-2 items-center">
     <div class="flex justify-center">
       <div class="relative w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-blue-200">
         <div class="bg-white h-[300px] w-[300px] bg-cover"></div>
