@@ -53,7 +53,7 @@ const projects = [
   },
   {
     id: 4,
-    img: "/fedev.jpg",
+    img: "",
     title: "Altra Roba",
     description: "Da Aggiungere",
     linkGithub: "https://github.com/ecommerce",

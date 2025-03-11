@@ -8,7 +8,7 @@ import Section from "@/components/Section.vue";
   <div class="grid gap-10 md:grid-cols-2 items-center">
     <div class="flex justify-center">
       <div class="relative w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-blue-200">
-        <div class="bg-[url(/fedev.jpg)] h-[300px] w-[300px] bg-cover"></div>
+        <div class="bg-white h-[300px] w-[300px] bg-cover"></div>
 
       </div>
     </div>
