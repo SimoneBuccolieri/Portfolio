@@ -1,29 +1,24 @@
-# my-portfolio2
+# 🌍 Personal Portfolio - Vue.js & Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite.
+Benvenuto nel mio **portfolio personale**, un sito web moderno e interattivo sviluppato con **Vue.js** e **Tailwind CSS**. 🚀
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🎨 Demo Online
+🔗 **[Visita il Portfolio](https://simonebuccoolieri.com)** 
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 🛠️ Tecnologie Utilizzate
+- **Vue.js 3** 🖼️ - Framework JavaScript progressivo per un'interfaccia reattiva
+- **Vite** ⚡ - Build tool ultrarapido per lo sviluppo e la produzione
+- **Tailwind CSS** 🎨 - Framework CSS per uno stile moderno e responsive
+- **JavaScript (ES6+)** 🚀 - Programmazione moderna e ottimizzata
+- **Swiper** ✨ - Per animazioni fluide e interattive 
+- **Nginx** 🌍 - Hosting e deploy ottimizzato  
+## 🚀 Funzionalità
+✅ **Design moderno e responsive** - Ottimizzato per desktop e mobile  
+✅ **Sezione progetti** - Mostra i tuoi lavori con immagini, descrizioni e link GitHub  
+✅ **Animazioni fluide** - Transizioni ed effetti dinamici con GSAP o Framer Motion *(se utilizzato)*  
+✅ **Performance elevate** - Build ottimizzata con Vite per caricamenti rapidi  
+✅ **Deploy flessibile** - Compatibile con Netlify, Vercel, GitHub Pages o VPS con Nginx  
