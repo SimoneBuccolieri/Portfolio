@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from "vue";
 import Snake from "@/projects/Snake.vue";
+import Memory from "@/projects/Memory.vue";
 import Card from "@/components/Card.vue";
 
 import {Swiper, SwiperSlide} from "swiper/vue";
@@ -39,11 +40,16 @@ const projects = [
   },
   {
     id: 3,
-    img: "/fedev.jpg",
-    title: "Altra Roba",
-    description: "Da Aggiungere",
-    linkGithub: "https://github.com/ecommerce",
-    linkname: "Link"
+    img: "/memorypreview.png",
+    title: "Memory",
+    try:true,
+    description: "Memory ricreato in VueJs",
+    linkGithub: "https://github.com/simonebuccolieri/Memory",
+    linkname: "Github",
+    component: Memory,
+    langs: [
+      "Html", "CSS", "VueJS"
+    ]
   },
   {
     id: 4,
