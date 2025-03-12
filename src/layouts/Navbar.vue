@@ -3,9 +3,7 @@
     <div class="container mx-auto px-8 flex h-14 items items-center justify-between py-4">
       <div class="flex gap-6 md:gap-10">
         <a href="#" class="flex items-center space-x-2">
-          <span class="font-bold inline-block text-black">
-            SB
-          </span>
+          <img src="/logo.png" alt="" class="h-14 w-14">
         </a>
         <nav class="hidden gap-6 md:flex">
           <button @click="$scrollTo('#projects', 500, { easing: 'ease-in-out' })" class="h-14 border-b border-gray-500 hover:border-b-2 flex items-center text-lg font-medium transition-colors text-gray-500 hover:text-gray-800">Progetti</button>
