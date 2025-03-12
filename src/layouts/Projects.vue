@@ -17,10 +17,9 @@ const projects = [
     id: 1,
     img: "/snakepreview.jpg",
     title: "Snake",
-    try: true,
     description: "Snake ricreato in VueJs",
     linkGithub: "https://github.com/simonebuccolieri/snake",
-    linkname: "Github",
+    link:"https://snake.simonebuccolieri.com",
     component: Snake,
     langs: [
       "Html", "CSS", "VueJS"
@@ -32,7 +31,6 @@ const projects = [
     title: "Agenda",
     description: "Agenda web personale, con autenticazione",
     linkGithub: "https://github.com/simonebuccolieri/calendar",
-    linkname: "Github",
     link: "https://calendar.simonebuccolieri.com",
     langs: [
       "Html", "CSS", "Laravel", "MySql", "Npm"
@@ -42,10 +40,9 @@ const projects = [
     id: 3,
     img: "/memorypreview.png",
     title: "Memory",
-    try:true,
     description: "Memory ricreato in VueJs",
     linkGithub: "https://github.com/simonebuccolieri/Memory",
-    linkname: "Github",
+    link:"https://memory.simonebuccolieri.com",
     component: Memory,
     langs: [
       "Html", "CSS", "VueJS"
@@ -75,7 +72,7 @@ const closeProject = () => {
 <template>
   <Section id="projects">
     <h2 class="text-3xl font-bold md:text-4xl text-center">
-      Projects
+      Progetti
     </h2>
 
     <swiper
@@ -87,7 +84,7 @@ const closeProject = () => {
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3, spaceBetween: 40 },
         }"
-        :autoplay="{ delay: 3000, disableOnInteraction: false }"
+        :autoplay="{ delay: 6000, disableOnInteraction: false }"
         :loop="true"
     >
       <swiper-slide

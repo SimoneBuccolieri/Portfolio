@@ -18,7 +18,7 @@ const skills = ref([
 
 <template>
   <Section class="lg:pt-0!">
-    <h2 class="text-2xl lg:hidden font-bold text-center">Skills</h2>
+    <h2 class="text-2xl lg:hidden font-bold text-center">Competenze</h2>
     <div class="grid grid-cols-3 lg:grid-cols-5 gap-4 max-w-[60rem] w-full mx-auto mt-4 lg:mt-8">
       <div v-for="skill in skills" :key="skill.id" class=" flex flex-col items-center px-2 py-4 border border-gray-200 rounded-lg hover:shadow-md transition bg-white">
         <img :src="skill.img" :alt="skill.name" class="w-12 aspect-square object-contain">
