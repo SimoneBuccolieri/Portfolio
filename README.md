@@ -5,7 +5,7 @@ Benvenuto nel mio **portfolio personale**, un sito web moderno e interattivo svi
 ---
 
 ## 🎨 Demo Online
-🔗 **[Visita il Portfolio](https://simonebuccoolieri.com)** 
+🔗 **[Visita il Portfolio](https://simonebuccolieri.com)** 
 
 ---
 
@@ -19,6 +19,6 @@ Benvenuto nel mio **portfolio personale**, un sito web moderno e interattivo svi
 ## 🚀 Funzionalità
 ✅ **Design moderno e responsive** - Ottimizzato per desktop e mobile  
 ✅ **Sezione progetti** - Mostra i tuoi lavori con immagini, descrizioni e link GitHub  
-✅ **Animazioni fluide** - Transizioni ed effetti dinamici con GSAP o Framer Motion *(se utilizzato)*  
+✅ **Animazioni fluide** - Transizioni ed effetti dinamici con Swiper e Vue-scrollto  
 ✅ **Performance elevate** - Build ottimizzata con Vite per caricamenti rapidi  
 ✅ **Deploy flessibile** - Compatibile con Netlify, Vercel, GitHub Pages o VPS con Nginx  
