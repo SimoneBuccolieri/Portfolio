@@ -7,8 +7,11 @@ import Section from "@/components/Section.vue";
 <Section>
   <div id="about" class="grid gap-10 md:grid-cols-2 items-center">
     <div class="flex justify-center">
-      <div class="relative w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-blue-200">
-        <div class="bg-white h-[300px] w-[300px] bg-cover"></div>
+      <div class="bg-[#F1F1F6] w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-blue-200 content-center flex justify-center">
+        <div class="h-[270px] w-[270px] ">
+          <img src="/io.jpg" alt="Immagine" />
+        </div>
+
 
       </div>
     </div>

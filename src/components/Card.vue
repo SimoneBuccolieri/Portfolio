@@ -28,7 +28,6 @@
         </div>
 
         <div class="flex gap-2 flex-grow 2xl:flex-grow-0 justify-end">
-          <!-- Link GitHub rimane separato e non clicca su tutta la card -->
           <a :href="project.linkGithub"
              target="_blank"
              rel="noopener noreferrer"
