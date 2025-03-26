@@ -50,11 +50,14 @@ const projects = [
   },
   {
     id: 4,
-    img: "",
-    title: "Altra Roba",
-    description: "Da Aggiungere",
-    linkGithub: "https://github.com/ecommerce",
-    linkname: "Link"
+    img: "/librarypreview.png",
+    title: "Gestione biblioteca",
+    description: "Progetto di gestione di una biblioteca realizzato in c++ e qt per esame universitario (WIP)",
+    linkGithub: "https://github.com/SimoneBuccolieri/Calculator-CppQt",
+    link:"https://github.com/SimoneBuccolieri/Calculator-CppQt",
+    langs: [
+      "C++", "Qt"
+    ]
   },
 ];
 const openProject = (project) => {
