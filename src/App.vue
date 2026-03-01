@@ -2,7 +2,8 @@
 import Navbar from "@/layouts/Navbar.vue";
 import Header from "@/layouts/Header.vue";
 import About from "@/layouts/About.vue";
-import Projects from "@/layouts/Projects.vue";
+import Education from "@/layouts/Education.vue";
+import Experience from "@/layouts/Experience.vue";
 import Footer from "@/layouts/Footer.vue";
 import Skills from "@/components/Skills.vue";
 </script>
@@ -12,7 +13,8 @@ import Skills from "@/components/Skills.vue";
     <Navbar />
     <Header />
     <Skills/>
-    <Projects />
+    <Education />
+    <Experience />
     <About />
     <Footer />
   </div>

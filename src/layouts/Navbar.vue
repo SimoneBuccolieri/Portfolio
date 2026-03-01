@@ -6,7 +6,8 @@
           <img src="/logo.png" alt="" class="h-12 w-12">
         </a>
         <nav class="hidden gap-6 md:flex">
-          <button @click="$scrollTo('#projects', 500, { easing: 'ease-in-out' })" class="h-14 border-b border-gray-500 hover:border-b-2 flex items-center text-lg font-medium transition-colors text-gray-500 hover:text-gray-800">Progetti</button>
+          <button @click="$scrollTo('#education', 500, { easing: 'ease-in-out' })" class="h-14 border-b border-gray-500 hover:border-b-2 flex items-center text-lg font-medium transition-colors text-gray-500 hover:text-gray-800">Formazione</button>
+          <button @click="$scrollTo('#experience', 500, { easing: 'ease-in-out' })" class="h-14 border-b border-gray-500 hover:border-b-2 flex items-center text-lg font-medium transition-colors text-gray-500 hover:text-gray-800">Lavoro</button>
           <button @click="$scrollTo('#about', 500, { easing: 'ease-in-out' })" class="h-14 border-b border-gray-500 hover:border-b-2 flex items-center text-lg font-medium transition-colors text-gray-500 hover:text-gray-800">Chi Sono</button>
         </nav>
       </div>
@@ -36,7 +37,8 @@
   <div v-if="menuOpen" class="fixed inset-0 z-50 bg-black/50 ">
     <div class="fixed gap-4 bg-white p-6 shadow-lg inset-y-0 top-0 h-1/4 w-full border-b border-gray-100 ">
       <div class="flex flex-col gap-6 h-full justify-center">
-        <button @click="$scrollTo('#projects', 500, { easing: 'ease-in-out' });toggleMenu()" class="text-lg font-medium">Progetti</button>
+        <button @click="$scrollTo('#education', 500, { easing: 'ease-in-out' });toggleMenu()" class="text-lg font-medium">Formazione</button>
+        <button @click="$scrollTo('#experience', 500, { easing: 'ease-in-out' });toggleMenu()" class="text-lg font-medium">Lavoro</button>
         <button @click="$scrollTo('#about', 500, { easing: 'ease-in-out' });toggleMenu()" class="text-lg font-medium" >Chi Sono</button>
       </div>
       <button @click="toggleMenu" class="absolute right-8 top-4 rounded-sm opacity-">
