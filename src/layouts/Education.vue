@@ -4,19 +4,19 @@ import Section from "@/components/Section.vue";
 </script>
 
 <template>
-  <Section id="education">
-    <div class="max-w-5xl mx-auto px-6 md:px-12" data-aos="fade-up">
-      <div class="flex items-center justify-center gap-4 mb-12">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" class="text-blue-600">
+  <Section id="education" class="py-12 md:py-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 md:px-12" data-aos="fade-up">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 mb-8 md:mb-12">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" class="text-blue-600 hidden md:block">
            <path d="M12 3L1 9L12 15L21 10.09V17H23V9L12 3ZM12 12.82L4.2 8.6L12 4.38L19.8 8.6L12 12.82Z" fill="currentColor"/>
            <path d="M5.5 11.52V18C5.5 19.1 8 21 12 21C16 21 18.5 19.1 18.5 18V11.52L12 15L5.5 11.52Z" fill="currentColor"/>
         </svg>
-        <h2 class="text-3xl font-bold md:text-5xl text-gray-900">
+        <h2 class="text-3xl text-center font-bold md:text-5xl text-gray-900">
           Formazione
         </h2>
       </div>
 
-      <div class="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+      <div class="bg-white rounded-2xl p-6 sm:p-8 md:p-12 shadow-sm border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
         <div class="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
         <div class="space-y-6 text-lg text-gray-700 leading-relaxed md:text-xl md:leading-10 relative z-10">
           <p>
