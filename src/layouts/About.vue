@@ -29,6 +29,7 @@ import Section from "@/components/Section.vue";
       <p class="text-lg text-gray-700 leading-relaxed md:text-xl md:leading-10">
         Oltre allo sviluppo, sono una persona estremamente pragmatica: mi piace analizzare i requisiti e scegliere la tecnologia più adatta per raggiungere l'obiettivo in modo efficiente.
         Sono abituato a gestire sfide dinamiche, ottimizzare le performance e adattarmi rapidamente a stack e ambienti diversi, portando sempre a termine i progetti con precisione e puntualità.
+        Nel mio tempo libero mi aggiorno costantemente sulle nuove tecnologie e mi dedico a progetti personali per affinare e consolidare le mie competenze come Full Stack Developer.
       </p>
     </div>
   </div>
