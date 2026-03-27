@@ -10,7 +10,7 @@ import Section from "@/components/Section.vue";
     <div class="flex justify-center order-first md:order-none mb-6 md:mb-0" data-aos="zoom-in" data-aos-delay="200">
       <div class="bg-[#F1F1F6] overflow-hidden rounded-full border-4 border-blue-500 flex items-center justify-center p-2 md:p-3 w-48 h-48 md:w-[250px] md:h-[250px]">
         <div class="rounded-full overflow-hidden w-full h-full">
-          <img src="/io.jpg" alt="Immagine" class="object-cover object-center w-full h-full" />
+          <img src="/io.jpg" alt="Foto ritratto di Simone Buccolieri" class="object-cover object-center w-full h-full" />
         </div>
       </div>
     </div>

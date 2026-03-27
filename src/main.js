@@ -1,18 +1,20 @@
 import './assets/main.css'
 
-import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg/single-page'
 import App from './App.vue'
 import VueScrollTo from "vue-scrollto";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const app = createApp(App);
-app.use(VueScrollTo);
-app.mount("#app");
-
-// Initialize AOS animations
-AOS.init({
-    duration: 800,
-    once: true,
-    offset: 100
+export const createApp = ViteSSG(App, ({ app, isClient }) => {
+  app.use(VueScrollTo);
+  
+  if (isClient) {
+    // Initialize AOS animations
+    AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+    });
+  }
 });
