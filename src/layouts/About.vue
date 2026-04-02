@@ -1,41 +1,59 @@
 <script setup>
 import Section from "@/components/Section.vue";
-
 </script>
 
 <template>
-<Section>
-  <div id="about" class="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 pt-8 grid gap-8 md:gap-10 md:grid-cols-2 items-center" data-aos="fade-up">
-    <!-- FOTO -->
-    <div class="flex justify-center order-first md:order-none mb-6 md:mb-0" data-aos="zoom-in" data-aos-delay="200">
-      <div class="bg-[#F1F1F6] overflow-hidden rounded-full border-4 border-blue-500 flex items-center justify-center p-2 md:p-3 w-48 h-48 md:w-[250px] md:h-[250px]">
-        <div class="rounded-full overflow-hidden w-full h-full">
-          <img src="/io.jpg" alt="Foto ritratto di Simone Buccolieri" class="object-cover object-center w-full h-full" />
+  <Section id="about" class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-6" data-aos="fade-up">
+      <!-- Section header -->
+      <div class="text-center mb-12">
+        <p class="text-xs font-semibold uppercase tracking-widest mb-3" style="color: #8b5cf6;">Il mio profilo</p>
+        <h2 class="text-3xl md:text-4xl font-bold section-title" style="color: var(--text-primary);">Chi Sono</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <!-- Photo -->
+        <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="relative">
+            <!-- Animated ring -->
+            <div class="absolute -inset-1 rounded-full blur-sm opacity-70"
+              style="background: linear-gradient(135deg, #8b5cf6, #6366f1, #3b82f6); animation: spin 6s linear infinite;"></div>
+            <div class="relative w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4"
+              style="border-color: var(--bg-primary);">
+              <img src="/io.jpg" alt="Foto ritratto di Simone Buccolieri" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="space-y-6 text-base md:text-lg leading-relaxed" style="color: var(--text-muted);" data-aos="fade-left" data-aos-delay="150">
+          <p>
+            Ciao! Sono uno studente di <span class="font-semibold" style="color: #8b5cf6;">Informatica all'Università di Padova</span> con una passione smisurata per lo sviluppo software. Amo trasformare idee complesse in prodotti digitali concreti, interattivi e dal design curato.
+          </p>
+          <p>
+            Il mio approccio è <strong>estremamente pragmatico</strong>: scelgo sempre lo stack tecnologico più rapido e adatto per ottimizzare performance e scalabilità. Non mi fermo mai al "semplicemente funziona", ma punto all'eccellenza, aggiornandomi costantemente per creare soluzioni all'avanguardia.
+          </p>
+
+          <!-- CTA -->
+          <div class="flex gap-3 pt-2 flex-wrap">
+            <a href="mailto:simone@buccolieri.com"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white transition-all hover:scale-105 hover:shadow-lg hover:shadow-brand-500/25"
+              style="background: linear-gradient(135deg, #8b5cf6, #6366f1);">
+              Scrivimi
+            </a>
+            <a href="cv_simone.pdf" aria-label="Scarica il CV"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all hover:scale-105"
+              style="background: var(--bg-card); border: 1px solid var(--border); color: var(--text-primary);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+              Scarica CV
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    
-    <!-- DESCRIZIONE -->
-    <div class="max-w-[40rem] space-y-4" data-aos="fade-left" data-aos-delay="100">
-      <h2 class="text-3xl font-bold md:text-5xl text-gray-900 mb-6">
-        Chi Sono
-      </h2>
-      <p class="text-lg text-gray-700 leading-relaxed md:text-xl md:leading-10">
-        Ciao! Sono un appassionato di tecnologia e sviluppo software,
-        attualmente studente di <span class="font-bold text-gray-900">Informatica all'Università di Padova</span>.
-        Fin da piccolo sono sempre stato affascinato dal mondo della programmazione
-        e da come sia possibile trasformare un'idea in qualcosa di interattivo e funzionante.
-      </p>
-      <p class="text-lg text-gray-700 leading-relaxed md:text-xl md:leading-10">
-        Oltre allo sviluppo, sono una persona estremamente pragmatica: mi piace analizzare i requisiti e scegliere la tecnologia più adatta per raggiungere l'obiettivo in modo efficiente.
-        Sono abituato a gestire sfide dinamiche, ottimizzare le performance e adattarmi rapidamente a stack e ambienti diversi, portando sempre a termine i progetti con precisione e puntualità.
-        Nel mio tempo libero mi aggiorno costantemente sulle nuove tecnologie e mi dedico a progetti personali per affinare e consolidare le mie competenze come Full Stack Developer.
-      </p>
-    </div>
-  </div>
-</Section>
+  </Section>
 </template>
 
 <style scoped>
-
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 </style>
